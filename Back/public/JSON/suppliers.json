@@ -1,0 +1,20 @@
+[
+    {
+        "supplier_id" : 1,
+        "nombre" : "PC componentes",
+        "cif" : "B32456745",
+        "direccion" : "Calle general diaz porlier 54"
+    },
+    {
+        "supplier_id" : 2,
+        "nombre" : "Primark",
+        "cif" : "B67645672",
+        "direccion" : "Calle de Gran Via"
+    },
+    {
+        "supplier_id" : 3,
+        "nombre" : "IKEA",
+        "cif" : "B82565725",
+        "direccion" : "Alcobendas"
+    }
+]

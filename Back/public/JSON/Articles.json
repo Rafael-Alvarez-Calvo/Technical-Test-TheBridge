@@ -1,0 +1,214 @@
+[
+    {
+        "article_id" : 1,
+        "nombre" : "Litera infantil",
+        "relevancia" : "Alta",
+        "precio" : "399,99€" 
+
+    },
+    {
+        "article_id" : 2,
+        "nombre" : "Cama de matrimonio",
+        "relevancia" : "Alta",
+        "precio" : "249,99€" 
+
+    },
+    {
+        "article_id" : 3,
+        "nombre" : "Mesa de cocina",
+        "relevancia" : "Baja",
+        "precio" : "50,00€" 
+
+    },
+    {
+        "article_id" : 4,
+        "nombre" : "Cómoda de habitación",
+        "relevancia" : "Alta",
+        "precio" : "70,00€" 
+
+    },
+    {
+        "article_id" : 5,
+        "nombre" : "Cafetera",
+        "relevancia" : "Baja",
+        "precio" : "15,50€" 
+
+    },
+    {
+        "article_id" : 6,
+        "nombre" : "Sartén 20cm",
+        "relevancia" : "Baja",
+        "precio" : "20,00€" 
+
+    },
+    {
+        "article_id" : 7,
+        "nombre" : "Vajilla básica",
+        "relevancia" : "Alta",
+        "precio" : "100,00€" 
+
+    },
+    {
+        "article_id" : 8,
+        "nombre" : "Copas cristal de bohemia 2x",
+        "relevancia" : "Baja",
+        "precio" : "40,00€" 
+
+    },
+    {
+        "article_id" : 9,
+        "nombre" : "Televisor 50 pulgadas",
+        "relevancia" : "Alta",
+        "precio" : "300,00€" 
+
+    },
+    {
+        "article_id" : 10,
+        "nombre" : "Silla gaming GTplayer",
+        "relevancia" : "Alta",
+        "precio" : "120,00€" 
+
+    },
+
+    {
+        "article_id" : 11,
+        "nombre" : "Gaming mouse 7 botones",
+        "relevancia" : "Alta",
+        "precio" : "25,00€" 
+
+    },
+    {
+        "article_id" : 12,
+        "nombre" : "Mouse pad 120cm x 80cm",
+        "relevancia" : "Alta",
+        "precio" : "40,00€" 
+
+    },
+    {
+        "article_id" : 13,
+        "nombre" : "Cascos gaming",
+        "relevancia" : "Baja",
+        "precio" : "50,00€" 
+
+    },
+    {
+        "article_id" : 14,
+        "nombre" : "Playstation 5",
+        "relevancia" : "Alta",
+        "precio" : "800,00€" 
+
+    },
+    {
+        "article_id" : 15,
+        "nombre" : "Reproductor de DVD",
+        "relevancia" : "Baja",
+        "precio" : "20,00€" 
+
+    },
+    {
+        "article_id" : 16,
+        "nombre" : "Teclado Gaming RGB",
+        "relevancia" : "Baja",
+        "precio" : "30,00€" 
+
+    },
+    {
+        "article_id" : 17,
+        "nombre" : "Patinete eléctrico",
+        "relevancia" : "Baja",
+        "precio" : "500,00€" 
+
+    },
+    {
+        "article_id" : 18,
+        "nombre" : "Samsung galaxy S9+",
+        "relevancia" : "Alta",
+        "precio" : "700,00€" 
+
+    },
+    {
+        "article_id" : 19,
+        "nombre" : "Micrófono Yeti",
+        "relevancia" : "Baja",
+        "precio" : "150,00€" 
+
+    },
+    {
+        "article_id" : 20,
+        "nombre" : "Sudadera manga larga",
+        "relevancia" : "Baja",
+        "precio" : "20,00€" 
+
+    },
+
+    {
+        "article_id" : 21,
+        "nombre" : "Camiseta Primark",
+        "relevancia" : "Baja",
+        "precio" : "2,00€" 
+
+    },
+    {
+        "article_id" : 22,
+        "nombre" : "Zapatillas Nike",
+        "relevancia" : "Alta",
+        "precio" : "80,00€" 
+
+    },
+    {
+        "article_id" : 23,
+        "nombre" : "Altavoces Woxter",
+        "relevancia" : "Alta",
+        "precio" : "100,00€" 
+
+    },
+    {
+        "article_id" : 24,
+        "nombre" : "Monitor Gaming Philips",
+        "relevancia" : "Baja",
+        "precio" : "150,00€" 
+
+    },
+    {
+        "article_id" : 25,
+        "nombre" : "Funda de Móvil",
+        "relevancia" : "Baja",
+        "precio" : "10,50€" 
+
+    },
+    {
+        "article_id" : 26,
+        "nombre" : "Fifa 2021 Playstation",
+        "relevancia" : "Alta",
+        "precio" : "65,00€" 
+
+    },
+    {
+        "article_id" : 27,
+        "nombre" : "Pantalones vaqueros",
+        "relevancia" : "Baja",
+        "precio" : "25,00€" 
+
+    },
+    {
+        "article_id" : 28,
+        "nombre" : "Vapeador",
+        "relevancia" : "Baja",
+        "precio" : "80,00€" 
+
+    },
+    {
+        "article_id" : 29,
+        "nombre" : "Alimentación Phantom",
+        "relevancia" : "Alta",
+        "precio" : "150,00€" 
+
+    },
+    {
+        "article_id" : 30,
+        "nombre" : "Ipod Nano",
+        "relevancia" : "Baja",
+        "precio" : "20,00€" 
+
+    }
+]
