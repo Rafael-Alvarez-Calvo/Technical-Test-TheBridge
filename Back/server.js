@@ -36,6 +36,28 @@ function PromiseConnectionDB(){
     });    
 }
 
+server.get("/get-count-articles", (req, res) => {
+
+    PromiseConnectionDB()
+        .then((DBconnection) => {
+            const sql = `SELECT COUNT(*) as totalArticles FROM articles`;
+            DBconnection.query(sql, (err, result) => {
+                if(err)
+                    res.send({"res" : "0", err})
+
+                else if(result.length) {
+
+                    res.send({"res" : "1", result})
+
+                } else {
+                    res.send({"res" : "-1", "msg" : "No hay datos", result})
+                }
+                DBconnection.end()
+            });
+        })
+        .catch(err => console.error(err))
+});
+
 server.get("/get-articles", (req, res) => {
     
     const { page } = req.query;
