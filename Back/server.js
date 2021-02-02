@@ -77,7 +77,6 @@ server.get("/get-articles", (req, res) => {
 
                     var articlesResult = {
                         'articles_page_count': result.length,
-                        'page_number': page,
                         'products': result
                     }
 

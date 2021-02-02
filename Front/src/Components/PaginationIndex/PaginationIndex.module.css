@@ -1,0 +1,43 @@
+.paginationContainer{
+    
+    margin-top: 10px;
+}
+
+button{
+    padding: 10px 13px;
+    border: 1px solid white;
+    border-radius: 50px;
+    outline: none;
+    background-color: #ffffff5d;
+    color: white;
+    
+}
+
+button:hover{
+    background-color: #ce2dab94;
+    color: white;
+    
+}
+
+button:active{
+    background-color: #ce2dab94;
+    color: white; 
+}
+
+.LeftBtn{
+    margin-right: 25px;
+}
+
+.RightBtn{
+    margin-left: 25px;
+}
+
+.paginationBtn{
+    margin: 0 5px 0 5px;
+}
+
+.paginationBtnActive{
+    margin: 0 5px 0 5px;
+    background-color: #ce2dab94;
+    color: white;
+}

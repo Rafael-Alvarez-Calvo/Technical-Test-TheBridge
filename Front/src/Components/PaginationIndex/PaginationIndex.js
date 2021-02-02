@@ -42,9 +42,9 @@ export const PaginationIndex = () => {
 
                             {Pages.map(page => {
                                return <Fragment key={page} >
-                                            <button className={PaginationIndexCss.paginationBtn} onClick={() => {
-                                                setCurrentPage(page);
-                                            }}>{page}</button>
+                                            <button className={currentPage === page ? `${PaginationIndexCss.paginationBtnActive}` : `${PaginationIndexCss.paginationBtn}` } onClick={() => {setCurrentPage(page)}}>
+                                                {page}
+                                            </button>
                                       </Fragment>
                             })}
 
@@ -55,6 +55,16 @@ export const PaginationIndex = () => {
                        </div>
             }
 
+            if(res === "0"){
+                //HACER
+            }
+
+            if(res === "-1"){
+                //HACER
+            }
+
+
+
         }
 
     }
@@ -62,7 +72,7 @@ export const PaginationIndex = () => {
     const articlesTablePainter = () => {
 
         if(currentPage){
-            return <> <ArticlesTable currentPage={currentPage}/> </>
+            return <> <ArticlesTable currentPage={currentPage} TotalPages={response && Math.ceil(response.result[0].totalArticles/10)} /> </>
         }
     }
 
@@ -70,9 +80,7 @@ export const PaginationIndex = () => {
 
     return (
         <>
-          <div className={PaginationIndexCss.articlesTableContainer}>
-              {articlesTablePainter()}
-          </div>
+          {articlesTablePainter()}
           {!isLoading && GetPaginationIndex()}
         </>
     )
