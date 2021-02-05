@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  backend:
+    # env_file:
+    #     "./backend/backend.env"
+    build:
+      context: ./backend
+      dockerfile: ./Back/DockerBack
+    image: "rafael-alvarez/techniqueTest-Backend"
+    ports:
+      - "8888:8888"
+  frontend:
+    build:
+      context: ./client
+      dockerfile: ./Front/DockerFront
+    image: "rafael-alvarez/techniqueTest-frontend"
+    ports:
+      - "3000:3000"
+    links:
+      - "backend:be"
