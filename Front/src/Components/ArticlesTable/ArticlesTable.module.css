@@ -11,7 +11,7 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-color: #e6a2d794;
-    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.616);
+    /* box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.616); */
     z-index: 1;
 }
 
@@ -39,7 +39,7 @@ th:nth-child(3){
 
 td{
     text-align: left;
-    padding: 8px;
+    padding: 6px 8px 6px 8px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -64,10 +64,10 @@ tr{
     align-items: center;
     margin: 0 0 10px 0;
     background-color: #ce2dab94;
-    padding: 10px;
+    padding: 10px 12px 10px 12px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.616);
+    /* box-shadow: 0 0 20px 2px rgba(255, 255, 255, 0.616); */
     z-index: 0;
 
 }
@@ -89,3 +89,29 @@ p{
 .InfoRight{
     margin-left: 50px;
 }
+
+h3{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    margin: 15px 0 10px 0;
+}
+
+.downArrow{
+    transform: translate(2px, -2px);
+}
+.upArrow{
+    transform: translate(2px, 2.2px);
+}
+
+.articleSelected{
+    background-color: #ce2dab94;
+}
+.articleSelected:hover{
+    background-color: #ce2dab94;
+}
+

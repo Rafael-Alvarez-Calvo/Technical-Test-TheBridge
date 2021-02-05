@@ -62,11 +62,7 @@ export const PaginationIndex = () => {
             if(res === "-1"){
                 //HACER
             }
-
-
-
         }
-
     }
 
     const articlesTablePainter = () => {
@@ -75,8 +71,6 @@ export const PaginationIndex = () => {
             return <> <ArticlesTable currentPage={currentPage} TotalPages={response && Math.ceil(response.result[0].totalArticles/10)} /> </>
         }
     }
-
-
 
     return (
         <>

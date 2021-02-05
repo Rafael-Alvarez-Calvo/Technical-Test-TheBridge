@@ -1,9 +1,9 @@
 [
     {
         "supplier_id" : 1,
-        "nombre" : "PC componentes",
+        "nombre" : "Amazon",
         "cif" : "B32456745",
-        "direccion" : "Calle general diaz porlier 54"
+        "direccion" : "Delicias"
     },
     {
         "supplier_id" : 2,
